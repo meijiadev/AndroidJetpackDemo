@@ -8,8 +8,8 @@ import androidx.lifecycle.OnLifecycleEvent
 /**
  * desc: 监听整个app
  */
-object ApplicationObserver : LifecycleObserver {
-    private const val TAG = "ApplicationObserver"
+public class ApplicationObserver : LifecycleObserver {
+    private val TAG = "ApplicationObserver"
 
     /**
      * 在应用程序第一次启动时调用，只会执行一次
