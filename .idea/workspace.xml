@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f3050eb-83e5-4e39-babc-aee109236a66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ddr/androidjetpackdemo/ApplicationObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ddr/androidjetpackdemo/MyApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ddr/androidjetpackdemo/MyLocationListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/entity/info/NotifyBaseStatusExS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/helper/ActivityStackManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/activity/ChinaMapActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/activity/CrashActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/activity/DevicesMapActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/activity/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/activity/MapDetailActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/activity/SplashActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/adapter/BaseModeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/adapter/BaseModeDraggableAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/adapter/DevicesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/adapter/MapAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/adapter/StringAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/adapter/TargetPointAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/dialog/InputDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/dialog/MessageDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/dialog/RelocationDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/dialog/SwitchModeDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/ui/dialog/WaitDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/widget/view/ChinaMapView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/widget/view/ProgressView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/java/ddr/example/com/svgmapclient/widget/view/SvgPathToAndroidPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/proto/DDRAIServiceCmd.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/res/layout/activity_china_map.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/res/layout/activity_devices_map.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/res/layout/activity_map_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/res/layout/activity_map_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/res/layout/dialog_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/res/layout/item_area_devices.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/res/raw/china.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVGMapClient/app/src/main/res/raw/china2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/SettingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/SettingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/entity/NotifyBaseStatusEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/entity/NotifyBaseStatusEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/fragment/LaserMapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/fragment/LaserMapFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/MessageRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/MessageRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/FileAddressProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/FileAddressProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/NotifyBaseStatusExProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/NotifyBaseStatusExProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/NotifyBaseStatusProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/NotifyBaseStatusProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/socket/TcpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/socket/TcpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/view/CustomImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/view/CustomImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/res/layout/activity_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../YMAndroidClient/app/src/main/res/layout/activity_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Commerce/大道智创-视觉激光融合导航模组-DD-VLN-01-产品定义文档D1.0.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/androidTest/java/com/example/dadao/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Login/LoadActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Login/presenter/ILoginPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Login/presenter/LoginPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Login/view/ILoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Login/view/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Socket/AudioTcpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Socket/BaseSocketConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Socket/IAudioTcpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Socket/ITcpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Socket/StreamBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Socket/TcpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/Socket/UdpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/activity/LogActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/activity/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/activity/NavigationActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/activity/SelectFileActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/activity/SettingActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/adapter/RobotIDRecyclerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/adapter/VideoListAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/adapter/VideoRecyclerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/adapter/XFragmentPageAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/base/DaDaoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/base/DaDaoBaseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/base/ICallReminder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/entity/NotifyBaseStatusEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/entity/NotifyEnvInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/entity/RobotIDEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/entity/RobotStatusEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/entity/VideoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/entity/XyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/fragment/LaserMapFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/fragment/VideoFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/CmdSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/GuIdInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/MessageRoute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/dispatcher/BaseMessageDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/dispatcher/ClientMessageDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/BaseProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/CmdStartActionModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/FileAddressProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/NotifyBaseStatusProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/RspAudioTalkProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/RspCmdMoveProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/RspCmdSetWorkPathProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/RspRemoteLoginProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/RspRemoteServerListProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/RspSelectLSProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/ServerInformationProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/SigninProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/protocobuf/processor/StreamAddrProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/ActivityManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/DpOrPxUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/Encrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/NetWorkUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/audio/AudioPlayerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/audio/AudioRecorderHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/download/DownLoadCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/download/DownLoadImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/download/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/download/HttpDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/widget/CircleBarView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/widget/CustomDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/widget/CustomImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/widget/ImageFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/widget/NewStandardGSYVideoPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/widget/NoScrollViewPager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/widget/PullToRefrshLinearLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/java/com/example/dadao/dadaorobot/util/widget/RockerView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/proto/BaseCmd.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/proto/DDRModuleCmd.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/proto/RemoteCmd.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/anim/anim_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/anim/anim_listview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/anim/right_layout_hide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/anim/right_layout_show.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/anim/status_bar_hide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/anim/status_bar_show.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable-v24/ic_pulltorefresh_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/animation_collect.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/animation_progress.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/bg_gray_circle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/button_bg_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/button_shape_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/button_shape_gray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/circle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/collect_dialog_edit_shape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/collect_dialog_shape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/collect_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/dialog_button_shape_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/dialog_button_shape_gray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/exit_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/ic_home_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/ic_notifications_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/log_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/progress_24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/seekbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/selector_thumb_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/shape_seekbar_btn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/toggle_button_left_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/toggle_button_left_gray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/toggle_button_right_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/toggle_button_right_gray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/video_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/voice_popup_shape_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/drawable/voice_popup_shape_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/activity_load.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/activity_log.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/activity_navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/activity_select_file.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/activity_setting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/appbar_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/collect_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/edit_path_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/fragment_laser_map.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/fragment_video.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/item_list_video.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/item_point_recycle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/item_recycle_file.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/item_recycle_robot_id.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/item_recycle_video.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/point_type_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/refresh_header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/shutdown_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/status_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/tcp_status_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/transparence_window.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/layout/voice_popup_window.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/menu/navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-hdpi/isconnected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-hdpi/timg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/account_switch_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/auto_dynamic_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/auto_dynamic_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/auto_static_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/auto_static_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/await_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/await_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/back_setting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/bkpic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/charging_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/charging_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collect_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collect_eight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collect_five.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collect_four.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collect_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collect_one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collect_seven.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collect_six.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collect_three.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collect_two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collecting_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/collecting_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/connected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/control_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/control_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/cs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/cut_off_line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/dadao_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/disconnected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/down_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/down_icon_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/duofangtonghua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/edit_bg_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/edit_bg_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/edit_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/energy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/exit_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/exit_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/generating_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/generating_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/go_dynamic_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/go_dynamic_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/go_static_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/go_static_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/header_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/hw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/icon_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/iv_sb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/jt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/line_speed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/load.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/log_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/log_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/log_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/palstance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/password.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/progess_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/progress_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/return_charge_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/return_charge_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/robot_id.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/rocker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/rocker_backward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/rocker_base_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/rocker_default_zy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/rocker_forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/rocker_go_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/rocker_go_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/server.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/setting_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/setting_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/shutdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/slide_ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/son_charging_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/son_charging_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/stop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/temp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/timg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/video_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/video_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/voice_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/voice_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/voice_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/wetness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/x_connected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xhdpi/x_disconnected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xxhdpi/edit_bg_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xxhdpi/edit_bg_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xxhdpi/edit_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xxhdpi/edit_seleted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xxhdpi/header_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xxhdpi/isconnected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/values/attrs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/app/src/test/java/com/example/dadao/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DadaoRobotAndroid/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hardware/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/Android/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/DDRClientSDK.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/DDRClientSDK.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/DDRClientSDK.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/DLLMain.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/gen_header_include.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/include/DDRClientSDK.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/ClientSDK/ClientSDKDispatcher.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/ClientSDK/ClientSDKDispatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/ClientSDK/ClientSDKTcpClient.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/ClientSDK/ClientSDKTcpClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/ClientSDK/ClientSDKUdpClient.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/ClientSDK/ClientSDKUdpClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/ClientSDK/ClientSDKUdpDispatcher.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/ClientSDK/ClientSDKUdpDispatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/Interface/DDRClientInterface.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/Interface/DDRClientInterface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/Processors/ClientSDKProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/Processors/ClientSDKProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/Processors/ClientSDKUdpProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDK/src/Processors/ClientSDKUdpProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDKDemo/DDRClientSDKDemo.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDKDemo/DDRClientSDKDemo.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDKDemo/DDRClientSDKDemo.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDKDemo/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDKDemo/utils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRClientSDKDemo/utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRSDK/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/DDRSDK/include/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/OpenCV.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/OpenCV_d.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/Python36.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/Python36_d.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/DDRClientSDK/libcurl.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/PC/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRClientSDK/iOS/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommLib/CommLibFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommLib/CommLibInterface.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommLib/CommLibInterface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommLib/FrameSliceConsumer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommLib/FrameSliceConsumer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommLib/FrameSliceGenerator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommLib/FrameSliceGenerator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommPublicFun/CommPublicFun.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommPublicFun/CommPublicFun.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommonDef/CommonDef.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommonDef/CommonDefFunc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommonDef/CommonDefFunc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommonDef/DeleteUnwrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommonDef/Types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/CommonDef/sys_configurations.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/DDRDeviceInterface.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/DDRDeviceInterface.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/DDRDeviceInterface.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/DDRDeviceInterface.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/DeleteUnwrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/DDRDeviceChargingRelated.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/DDRDeviceControlMoveNormal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/DDRDeviceEmbStatus.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/DDRDeviceEnvironment.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/DDRDeviceGnss.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/DDRDeviceIMU.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/DDRDeviceLidar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/DDRDeviceMotor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/DeviceManager.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/DeviceManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/IMUWheelConverter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/IMUWheelConverter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/OffsetCorrector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Device/OffsetCorrector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/DDREmbConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/EmbServer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/EmbServer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/EmbUser.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/EmbUser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/EmbUserBase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/EmbUserBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/GNSSAnalyzer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/GNSSAnalyzer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/SerialPortIOHandler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Embedded/SerialPortIOHandler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Export.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/Geometry/RangerPoints.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/AkuLidar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/AkuLidar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/BlockRingBuf.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/BlockRingBuf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/Lidar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/Lidar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/LidarComm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/LidarComm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/LidarImpl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/LidarImpl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/LidarList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/LidarList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/LidarProbe.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/LidarProbe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/LidarSDK_errno.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/RingBuf.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/RingBuf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/lim.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/CheveningSrc/lim.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/LidarSDK.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/SickSDK/SickLidar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/SickSDK/SickLidar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LidarSDK/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/ClientBase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/ClientBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/DefaultConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/IMPL.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/LocalNodeGroup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/LocalNodeGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/MIMC.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/MIMC.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/ServerBase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/ServerBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/SocketWrapper.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/SocketWrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/TCPClient.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/TCPClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/TCPServer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/TCPServer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/UDPClient.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/UDPClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/UDPServer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/Impl/UDPServer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/LNNFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/LocalNetworkNode/LNNNodeGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/dllmain.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceChargingRelated.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceCommData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceControlMoveNormal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceEmbStatus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceEnvironment.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceGnss.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceIMU.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceInterface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceLidar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceMotor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DDRDeviceTypeBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/include/DataFormat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/lib/DDRDevice_x64d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/lib/DDRDevice_x64d.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/lib/DDRDevice_x64r.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/lib/DDRDevice_x64r.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/opencv_debug_new.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/opencv_release_new.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/stdafx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/DDRDeviceInterface/targetver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/Test/Test.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/Test/Test.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/Test/Test.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/Test/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/Test/opencv_debug_new.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRDeviceInterface/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Behaviors/BaseClientBehavior.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Behaviors/BaseClientBehavior.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Config/Global.xml/Global_183.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Core/CoreNavigator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Core/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/DDRModuleService.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/DDRModuleService.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/DDRModuleService.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Debug/DDRModuleService.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Debug/DDRModuleService.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Debug/DDRModuleService.tlog/DDRModuleService.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Debug/DDRModuleService.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Debug/vc141.ib_pdb_index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/LSClient/LSClientDispatcher.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/LSClient/LSClientDispatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/LSClient/LSClientManager.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/LSClient/LSClientManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/LSClient/LSRemoteClientHeadRuleRouter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/LSClient/LSRemoteClientHeadRuleRouter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/LSClient/LSTcpClient.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/LSClient/LSTcpClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Logic/AutoState/AutoState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Logic/AutoState/AutoState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Logic/BuildingMapStae/BuildingMapState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Logic/BuildingMapStae/BuildingMapState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Logic/ChargingState/ChargingState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Logic/ChargingState/ChargingState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Logic/IdleState/IdleState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Logic/IdleState/IdleState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Logic/RobotEntity.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Logic/RobotEntity.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Managers/FileManager.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Managers/FileManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Managers/GlobalManager.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Managers/GlobalManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Managers/StreamRelayServiceManager.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Managers/StreamRelayServiceManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/AlarmProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/AlarmProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/Client/FileAddressProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/Client/FileAddressProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/Client/StreamAddrProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/Client/StreamAddrProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/CmdProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/CmdProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/FileStatusProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/FileStatusProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/HeartBeatProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/HeartBeatProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/LocalServerUdpProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/LocalServerUdpProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/LoginProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/LoginProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/RemoteServer/RegisteLSProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/RemoteServer/RegisteLSProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/RemoteServer/RemoteLoginProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/RemoteServer/RemoteLoginProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/RemoteServer/RemoteServerListProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/RemoteServer/RemoteServerListProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/RemoteServer/RtspStreamUploadAddrProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/RemoteServer/RtspStreamUploadAddrProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/RemoteServer/UploadFileProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/RemoteServer/UploadFileProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/SDK/RobotVersionInfoProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/SDK/RobotVersionInfoProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/SDK/SetParameterProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/SDK/SetParameterProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/StatusProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/StatusProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/StreamRelay/StreamRelayAlarmProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/StreamRelay/StreamRelayAlarmProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/StreamRelay/StreamServiceInfoProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/StreamRelay/StreamServiceInfoProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/TalkHBProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/TalkHBProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/TalkProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/TalkProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/TextChatProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Processors/TextChatProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Servers/LocalServerDispatcher.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Servers/LocalServerDispatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Servers/LocalServerHeadRuleRouter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Servers/LocalServerHeadRuleRouter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Servers/LocalServerUdpDispatcher.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Servers/LocalServerUdpDispatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Servers/LocalTcpServer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Servers/LocalTcpServer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/Version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/demos/demo_core.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/DDRModuleService/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/OpenCV.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/OpenCV_d.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/Python36.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/Python36_d.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/DDRModuleService/libcurl.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/Shared/DataFormat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Software/Shared/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/androidTest/java/ym/example/com/ymandroidclient/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/DaDaoBaseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/LogActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/SelectFileActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/SettingActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/adapter/RobotIDRecyclerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/adapter/XFragmentPageAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/entity/NotifyBaseStatusEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/entity/NotifyEnvInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/entity/RobotIDEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/entity/RobotStatusEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/entity/VideoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/entity/XyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/fragment/LaserMapFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/fragment/VideoFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/CmdSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/Encrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/MessageRoute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/dispatcher/BaseMessageDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/dispatcher/ClientMessageDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/BaseProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/FileAddressProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/NotifyBaseStatusExProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/NotifyBaseStatusProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/NotifyEnvInfoProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/RspCmdMoveProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/RspCmdSetWorkPathProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/RspLoginProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/protobuf/processor/ServerInformationProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/socket/BaseSocketConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/socket/ITcpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/socket/StreamBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/socket/TcpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/socket/UdpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/utility/ActivityManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/utility/DownLoadCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/utility/DownLoadImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/utility/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/utility/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/view/CustomDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/view/CustomImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/view/NewStandardGSYVideoPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/view/NoScrollViewPager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/java/ym/example/com/ymandroidclient/view/RockerView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/proto/BaseCmd.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/proto/DDRModuleCmd.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/anim/anim_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/anim/anim_listview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/anim/right_layout_hide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/anim/right_layout_show.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/anim/status_bar_hide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/anim/status_bar_show.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/animation_collect.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/animation_progress.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/bg_gray_circle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/button_bg_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/button_shape_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/button_shape_gray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/circle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/collect_dialog_edit_shape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/collect_dialog_shape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/collect_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/dialog_button_shape_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/dialog_button_shape_gray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/exit_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/ic_home_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/ic_notifications_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/log_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/progress_24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/seekbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/selector_thumb_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/shape_seekbar_btn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/toggle_button_left_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/toggle_button_left_gray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/toggle_button_right_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/toggle_button_right_gray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/video_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/voice_popup_shape_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/drawable/voice_popup_shape_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/activity_log.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/activity_select_file.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/activity_setting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/collect_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/edit_path_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/fragment_laser_map.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/fragment_video.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/item_recycle_file.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/item_recycle_robot_id.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/point_type_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/shutdown_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/status_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/layout/tcp_status_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/account_switch_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/angular_speed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/auto_dynamic_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/auto_dynamic_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/auto_static_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/auto_static_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/await_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/await_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/back_setting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/battery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/bkpic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/charging_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/charging_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collect_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collect_eight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collect_five.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collect_four.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collect_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collect_one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collect_seven.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collect_six.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collect_three.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collect_two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collecting_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/collecting_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/connected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/control_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/control_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/cs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/cut_off_line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/dadao_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/disconnected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/down_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/down_icon_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/duofangtonghua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/edit_bg_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/edit_bg_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/edit_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/energy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/exit_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/exit_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/generating_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/generating_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/go_dynamic_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/go_dynamic_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/go_static_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/go_static_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/header_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/humidity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/hw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/icon_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/iv_cs_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/iv_cs_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/iv_hw_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/iv_hw_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/iv_jt_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/iv_jt_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/iv_sb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/jt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/line_speed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/load.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/log_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/log_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/log_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/main_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/mode_switch_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/palstance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/password.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/pm25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/progess_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/progress_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/return_charge_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/return_charge_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/robot_id.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/rocker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/rocker_backward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/rocker_base_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/rocker_default_zy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/rocker_forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/rocker_go_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/rocker_go_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/server.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/setting_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/setting_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/shutdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/slide_ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/son_charging_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/son_charging_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/stop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/temp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/timg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/video_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/video_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/voice_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/voice_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/voice_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/wetness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/x_connected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xhdpi/x_disconnected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xxhdpi/edit_bg_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xxhdpi/edit_bg_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xxhdpi/edit_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xxhdpi/edit_seleted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xxhdpi/header_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xxhdpi/isconnected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/values/attrs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/app/src/test/java/ym/example/com/ymandroidclient/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YMAndroidClient/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="4.65_720p_Galaxy_Nexus_API_27" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1hqY6rcOrUm8M2MNuzan0m3edHw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="E:/studio_tool/sdk" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f3050eb-83e5-4e39-babc-aee109236a66" name="Default Changelist" comment="" />
+      <created>1600739917007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600739917007</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="775" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1600742804841">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="775" y="256" key="#com.intellij.ide.util.MemberChooser/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600742804841" />
+    <state x="771" y="295" key="FileChooserDialogImpl" timestamp="1600740246960">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="771" y="295" key="FileChooserDialogImpl/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600740246960" />
+    <state x="492" y="182" key="SettingsEditor" timestamp="1600742249657">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="492" y="182" key="SettingsEditor/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600742249657" />
+    <state x="732" y="181" key="refactoring.ChangeSignatureDialog" timestamp="1600741532647">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="732" y="181" key="refactoring.ChangeSignatureDialog/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600741532647" />
+  </component>
+</project>
