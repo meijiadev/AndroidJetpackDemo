@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.ddr.androidjetpackdemo.MainFragment"
+        android:name="com.ddr.jetpackdemo.MainFragment"
         android:label="fragment_mai1"
         tools:layout="@layout/fragment_main" >
         <action
@@ -17,10 +17,15 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="user_name"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="unknow" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.ddr.androidjetpackdemo.SecondFragment"
+        android:name="com.ddr.jetpackdemo.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
     </fragment>

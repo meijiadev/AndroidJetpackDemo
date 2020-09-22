@@ -1,4 +1,4 @@
-package com.ddr.androidjetpackdemo
+package com.ddr.jetpackdemo
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,10 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import androidx.navigation.NavAction
-import androidx.navigation.Navigation
-import androidx.navigation.findNavController
-import kotlinx.android.synthetic.main.fragment_main.*
+import androidx.navigation.fragment.findNavController
 
 
 /**
@@ -40,7 +37,12 @@ class MainFragment : Fragment() ,View.OnClickListener{
      */
     override fun onClick(view: View?) {
         //TODO("Not yet implemented")
-        Navigation.findNavController(btToSecondFragment).navigate(R.id.action_mainFragment_to_secondFragment)
+        //导航到目的地 方法一
+        //Navigation.findNavController(btToSecondFragment).navigate(R.id.action_mainFragment_to_secondFragment)
+        //方法二
+        this.findNavController()
+            .navigate(R.id.action_mainFragment_to_secondFragment)
+
     }
 
 }

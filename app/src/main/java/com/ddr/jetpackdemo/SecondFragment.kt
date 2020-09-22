@@ -1,4 +1,4 @@
-package com.ddr.androidjetpackdemo
+package com.ddr.jetpackdemo
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

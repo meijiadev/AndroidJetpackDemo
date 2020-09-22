@@ -1,4 +1,4 @@
-package com.ddr.androidjetpackdemo
+package com.ddr.jetpackdemo
 
 import org.junit.Test
 

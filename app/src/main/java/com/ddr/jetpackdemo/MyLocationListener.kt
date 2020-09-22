@@ -1,10 +1,9 @@
-package com.ddr.androidjetpackdemo
+package com.ddr.jetpackdemo
 
 import android.app.Activity
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
-import java.security.AccessControlContext
 
 /**
  * desc：导航组件（模拟）

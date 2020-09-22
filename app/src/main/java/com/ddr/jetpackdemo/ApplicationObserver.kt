@@ -1,4 +1,4 @@
-package com.ddr.androidjetpackdemo
+package com.ddr.jetpackdemo
 
 import android.util.Log
 import androidx.lifecycle.Lifecycle

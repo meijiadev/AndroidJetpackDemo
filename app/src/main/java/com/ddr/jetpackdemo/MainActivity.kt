@@ -1,4 +1,4 @@
-package com.ddr.androidjetpackdemo
+package com.ddr.jetpackdemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         myLocationListener=MyLocationListener(this, object :MyLocationListener.OnLocationChangedListener{
             override fun onChanged(latitude: Double, longitude: Double) {
-                TODO("Not yet implemented")
+                //TODO("Not yet implemented")
                 //展示收到的消息
             }
         })
