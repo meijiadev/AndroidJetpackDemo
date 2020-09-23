@@ -11,14 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f3050eb-83e5-4e39-babc-aee109236a66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ddr/jetpackdemo/TimeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ddr/jetpackdemo/TimerActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ddr/jetpackdemo/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_timer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="4.65_720p_Galaxy_Nexus_API_27" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="cff5cc40" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -34,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="navigationResourceFile" />
         <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,6 +77,9 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.908753063">
+      <recent name="com.ddr.jetpackdemo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\AndroidProject\AndroidJetpackDemo\app\src\main\java\com\ddr\jetpackdemo" />
     </key>
@@ -147,10 +162,10 @@
       <screen x="-1858" y="124" width="1858" height="1080" />
     </state>
     <state x="-1474" y="396" key="#PSD/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600763388152" />
-    <state x="-1145" y="380" key="#com.intellij.ide.util.MemberChooser" timestamp="1600832364664">
+    <state x="-1145" y="380" key="#com.intellij.ide.util.MemberChooser" timestamp="1600850163862">
       <screen x="-1858" y="124" width="1858" height="1080" />
     </state>
-    <state x="-1145" y="380" key="#com.intellij.ide.util.MemberChooser/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600832364664" />
+    <state x="-1145" y="380" key="#com.intellij.ide.util.MemberChooser/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600850163861" />
     <state x="775" y="256" key="#com.intellij.ide.util.MemberChooser/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600742804841" />
     <state x="721" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600746778292">
       <screen x="62" y="0" width="1858" height="1080" />
@@ -160,29 +175,30 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="571" y="295" key="AndroidCreateResourceFileDialog/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600746845971" />
-    <state x="771" y="295" key="FileChooserDialogImpl" timestamp="1600740246960">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state x="-1149" y="419" key="FileChooserDialogImpl" timestamp="1600848648949">
+      <screen x="-1858" y="124" width="1858" height="1080" />
     </state>
+    <state x="-1149" y="419" key="FileChooserDialogImpl/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600848648949" />
     <state x="771" y="295" key="FileChooserDialogImpl/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600740246960" />
-    <state width="1815" height="485" key="GridCell.Tab.0.bottom" timestamp="1600760632660">
+    <state width="1815" height="331" key="GridCell.Tab.0.bottom" timestamp="1600851151461">
       <screen x="-1858" y="124" width="1858" height="1080" />
     </state>
-    <state width="1815" height="485" key="GridCell.Tab.0.bottom/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600760632660" />
+    <state width="1815" height="331" key="GridCell.Tab.0.bottom/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600851151461" />
     <state width="1815" height="341" key="GridCell.Tab.0.bottom/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600746356337" />
-    <state width="1815" height="485" key="GridCell.Tab.0.center" timestamp="1600760632660">
+    <state width="1815" height="331" key="GridCell.Tab.0.center" timestamp="1600851151461">
       <screen x="-1858" y="124" width="1858" height="1080" />
     </state>
-    <state width="1815" height="485" key="GridCell.Tab.0.center/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600760632660" />
+    <state width="1815" height="331" key="GridCell.Tab.0.center/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600851151461" />
     <state width="1815" height="341" key="GridCell.Tab.0.center/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600746356337" />
-    <state width="1815" height="485" key="GridCell.Tab.0.left" timestamp="1600760632659">
+    <state width="1815" height="331" key="GridCell.Tab.0.left" timestamp="1600851151460">
       <screen x="-1858" y="124" width="1858" height="1080" />
     </state>
-    <state width="1815" height="485" key="GridCell.Tab.0.left/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600760632659" />
+    <state width="1815" height="331" key="GridCell.Tab.0.left/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600851151460" />
     <state width="1815" height="341" key="GridCell.Tab.0.left/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600746356337" />
-    <state width="1815" height="485" key="GridCell.Tab.0.right" timestamp="1600760632660">
+    <state width="1815" height="331" key="GridCell.Tab.0.right" timestamp="1600851151461">
       <screen x="-1858" y="124" width="1858" height="1080" />
     </state>
-    <state width="1815" height="485" key="GridCell.Tab.0.right/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600760632660" />
+    <state width="1815" height="331" key="GridCell.Tab.0.right/-1858.124.1858.1080/62.0.1858.1080@-1858.124.1858.1080" timestamp="1600851151461" />
     <state width="1815" height="341" key="GridCell.Tab.0.right/-1858.124.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600746356337" />
     <state x="492" y="182" key="SettingsEditor" timestamp="1600742249657">
       <screen x="62" y="0" width="1858" height="1080" />
