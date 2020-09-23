@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/mainFragment">
-
     <fragment
         android:id="@+id/mainFragment"
         android:name="com.ddr.jetpackdemo.MainFragment"
@@ -19,6 +18,11 @@
             app:popExitAnim="@anim/slide_out_right" />
         <argument
             android:name="user_name"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="unknow" />
+        <argument
+            android:name="password"
             app:argType="string"
             app:nullable="true"
             android:defaultValue="unknow" />

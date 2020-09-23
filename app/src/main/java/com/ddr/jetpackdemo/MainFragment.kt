@@ -40,8 +40,13 @@ class MainFragment : Fragment() ,View.OnClickListener{
         //导航到目的地 方法一
         //Navigation.findNavController(btToSecondFragment).navigate(R.id.action_mainFragment_to_secondFragment)
         //方法二
+        val bundle=MainFragmentArgs.Builder()
+            .setUserName("Ezreal")
+            .setPassword("admin")
+            .build()
+            .toBundle()
         this.findNavController()
-            .navigate(R.id.action_mainFragment_to_secondFragment)
+            .navigate(R.id.action_mainFragment_to_secondFragment,bundle)
 
     }
 
